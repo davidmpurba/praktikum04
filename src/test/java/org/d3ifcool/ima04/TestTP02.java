@@ -12,10 +12,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestTP02 {
 
     private static final String[] INPUT = {
-            // Isi input di sini. Lihat contoh TestJurnal01.
+            "20", "10"
     };
     private static final String[] OUTPUT = {
-            // Isi input di sini. Lihat contoh TestJurnal01.
+            "Telur 20 x 800 = 16000\nDiskon 10% = 1600\nTotal dibayar = 14400",
+			"Telur 10 x 800 = 8000\nDiskon 0% = 0\nTotal dibayar = 8000"
     };
 
     @Test

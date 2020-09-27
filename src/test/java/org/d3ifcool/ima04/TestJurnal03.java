@@ -9,10 +9,10 @@ import java.io.*;
 public class TestJurnal03 {
 
     private static final String[] INPUT = {
-            // Isi input di sini. Lihat contoh TestJurnal01.
+            "75 78 74", "81 75 79", "80 82 85"
     };
     private static final String[] OUTPUT = {
-            // Isi input di sini. Lihat contoh TestJurnal01.
+            "Idar, Dira, Radi", "Radi, Idar, Dira", "Dira, Radi, Idar"
     };
 
     @Test

@@ -9,10 +9,11 @@ import java.io.*;
 public class TestJurnal02 {
 
     private static final String[] INPUT = {
-            // Isi input di sini. Lihat contoh TestJurnal01.
+            "43","512"
     };
     private static final String[] OUTPUT = {
-            // Isi input di sini. Lihat contoh TestJurnal01.
+            "Penghasilan kotor = 43 juta Rupiah\nPajak 5% = Rp. 2150000\nPenghasilan bersih = Rp. 40850000",
+			"Penghasilan kotor = 512 juta Rupiah\nPajak 30% = Rp. 153600000\nPenghasilan bersih = Rp. 358400000" 
     };
 
     @Test
